@@ -271,3 +271,7 @@ shape = SubResource( 11 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
 frames = SubResource( 16 )
 frame = 3
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+current = true
+zoom = Vector2( 0.4, 0.4 )
